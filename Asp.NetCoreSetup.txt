@@ -1,0 +1,2 @@
+Add package RabbitMQ.client
+Add package Microsoft.Extensions.DependencyInjection

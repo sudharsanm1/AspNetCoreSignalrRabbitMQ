@@ -1,0 +1,17 @@
+RabbitMQ
+
+1. Install Docker Desktop
+
+2. Start the container from Docker 
+
+docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+--hostname my-rabbit - is the application name
+:3-management - is the version 3 with mangement plugin
+
+3. Open the URL  http://localhost:15672 with user guest/guest
+
+
+Ref Doc -https://codeburst.io/get-started-with-rabbitmq-on-docker-4428d7f6e46b
+
+
